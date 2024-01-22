@@ -35,7 +35,10 @@ function biggerThan14(arr){
 
 // Given an array of strings, return the first string with length greater than 4 or undefined if no such string is found
 
-
+function findLongString(arr) {
+    let longString = arr.find(str => str.length > 4);
+    return longString;
+  }
 
 // Given an array of Objects and a target id return the first object that matches the id or undefined if no such object is found
 // Expected Structure of a SINGLE object - 
@@ -47,6 +50,10 @@ function biggerThan14(arr){
  eyeColor: "green"
 }
 */
+function findObjectById(array, id) {
+    return object;
+  }
+return undifined 
 
 
 // Given an array of objects and a target id return a new object with only the name. The structure for a single object in the array would be as the one above. The returned object would look like this - 
@@ -55,3 +62,10 @@ function biggerThan14(arr){
  name: "Robert"
 }
 */
+function findById(arr, id) {
+    let result = arr.find(obj => obj.id === id);
+    return result.name;
+  }
+
+
+  
