@@ -55,6 +55,31 @@ function findObjectById(array, id) {
   }
 return undifined 
 
+[
+    {
+      "id": "Y42C_a",
+      "name": "Robert",
+      "occupation": "Chef",
+      "eyeColor": "green"
+    },
+    {
+      "id": "Y42C_b",
+      "name": "Robert",
+      "occupation": "Chef",
+      "eyeColor": "green"
+    },
+    {
+      "id": "Y42C_c",
+      "name": "Robert",
+      "occupation": "Chef",
+      "eyeColor": "green"
+    },
+    {
+      "id": "Y42C_d",
+      "name": "Robert",
+      "occupation": "Chef",
+      "eyeColor": "green"
+    },
 
 // Given an array of objects and a target id return a new object with only the name. The structure for a single object in the array would be as the one above. The returned object would look like this - 
 /*
