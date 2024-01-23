@@ -62,10 +62,15 @@ return undifined
  name: "Robert"
 }
 */
-function findById(arr, id) {
-    let result = arr.find(obj => obj.id === id);
-    return result.name;
-  }
+function nameWithObj(arr,targetid){
+    const obj = {}; 
+   for(let ele of arr) {
+       if(ele.id === targetid){
+        
+        return {name:ele.name} 
+        
+        }
+      }
+      return undefined;
 
 
-  
