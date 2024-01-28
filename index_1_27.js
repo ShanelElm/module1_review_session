@@ -3,10 +3,16 @@
  ["apple", "orange", "apple", "banana", "apple", "orange"]
 
 function countElements(arr) {
-  for (let key in ele) {
-    obj[key] = value;
-    return obj
-  } 
+    const obj = {}
+  for (let key of arr) {
+    if (obj[key]) {
+       obj[key]++
+    } else {
+      obj[key] = 1;
+
+    }
+   }
+   return obj;
   }
 
 
@@ -19,13 +25,21 @@ function countElements(arr) {
 
 // 2. Write a function that takes an object and a property name (key), and returns the value of the property. If the property doesn't exist in the object return an error message
 
-// YOUR CODE HERE
+// 1. object, key
+// 2. output/return value - the value or error message if no value
 
+
+// YOUR CODE HERE
+function valueOfProperty (obj, key) {  
+   if (obj[key]) {
+    return obj[key];
+   } else {
+    return "errrrrorrrr";
+   }
+}
 // ------------------------------------------------------------------------
 
 // 3. Given a person object, update their street to the new given street. The person object will have these properties -
-
-/*
 
 const person = {
   firstName: "John",
@@ -37,10 +51,10 @@ const person = {
     zip: "12345"
   }
 };
+person.address.street = "123 Elm St"
 
-*/
 
-// YOUR CODE HERE
+
 
 // ------------------------------------------------------------------------
 
@@ -78,7 +92,7 @@ const companyOrganizationalStructure = {
               },
               softwareEngineer2: {
                 name: "David Coder",
-                desk: "B802",
+                desk: "B802", ///companyOrganizationalStructure.departments.development.head.office.employees.softwareEngineer2.desk
               },
             },
           },
@@ -105,7 +119,7 @@ const companyOrganizationalStructure = {
     },
   };
   
-  // YOUR CODE HERE
+ console.log()
   
   // ------------------------------------------------------------------------
   
