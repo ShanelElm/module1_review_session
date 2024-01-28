@@ -47,6 +47,24 @@ function longStrings(arr) {
 
 // 3. Write a function that takes an array of strings, and returns a new array of the lengths of strings longer than 5 characters
 
+function longerThanFive(arr) {
+  const newArr = [];   // accumulator 
+
+  for (let str of arr) {  //loop
+    if (str.length > 5) {  
+      newArr.push(str);
+    }
+  }
+ return longerThanFive;  // returnthe accumulator 
+}
+
+// Another way:
+
+return newArr.filter(str => str.length > 5);
+
+console.log(longerThanFive ["hello", "goodbye", "sup", "bye"]); 
+
+
 // 4. Write a function that takes an array of numbers and returns the sum of all even numebrs
 
 // 5. Write a function that takes an array of numbers and returns the min num
