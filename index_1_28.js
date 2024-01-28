@@ -67,6 +67,18 @@ console.log(longerThanFive ["hello", "goodbye", "sup", "bye"]);
 
 // 4. Write a function that takes an array of numbers and returns the sum of all even numebrs
 
+function sumOfEvenNumbers(arr) {
+    const sum = 0;
+  
+    for (let num of arr) {
+      if (num % 2 === 0) {
+        sum += num;
+      }
+    }
+    
+  }
+  return sumOfEvenNumbers; 
+
 // 5. Write a function that takes an array of numbers and returns the min num
 
 // 6. Write a function that takes in a string and returns the character that appears the most times (only letters count)
