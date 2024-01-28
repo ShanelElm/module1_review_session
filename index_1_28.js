@@ -10,7 +10,24 @@
 // 1. Write a function that takes in an array of strings and returns a new array where each string is replaced by it's length
 // ["hello", "world"] => [5, 5] 
 
-git 
+ function lengthOfStrings(arr) {
+        let newArr = [];
+        for (let i = 0; i < arr.length; i++) {
+          newArr.push(arr[i].length);
+        }
+        return newArr;
+
+
+    const lengths = []; // accumulator
+
+    for (let str of arr) { // loop
+      lengths.push(str.length) // transforms the accumulator
+    }
+    return lengths; // return the accumulator
+  }
+  
+
+
 
 // 2. Write a function that takes an array of strings and returns an array of strings longer than 5 characters (spaces count)
 
