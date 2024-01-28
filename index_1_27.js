@@ -73,7 +73,7 @@ const companyOrganizationalStructure = {
         location: "Floor 10, Building A",
         employees: {
           executiveAssistant: {
-            name: "Alice Executive",
+            name: "Alice Executive", 
             desk: "A101",
           },
         },

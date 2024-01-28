@@ -18,6 +18,8 @@
         return newArr;
 
 
+
+
     const lengths = []; // accumulator
 
     for (let str of arr) { // loop
@@ -30,6 +32,18 @@
 
 
 // 2. Write a function that takes an array of strings and returns an array of strings longer than 5 characters (spaces count)
+
+function longStrings(arr) {
+    const result = []; // accumulator
+  
+    for (let str of arr) { // loop 
+      if (str.length > 5) { // finding the length thats greater thank 5 
+        result.push(str); // pushing the string thats greater than 5
+      }
+    }
+    return longStrings; // return the accumulator 
+  }
+
 
 // 3. Write a function that takes an array of strings, and returns a new array of the lengths of strings longer than 5 characters
 
